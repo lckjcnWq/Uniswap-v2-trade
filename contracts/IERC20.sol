@@ -20,4 +20,8 @@ interface IERC20 {
     function allowance(address owner, address spender) external view returns (uint256);
     
     //授权指定地址
+    function approve(address owner, uint256 value) external returns (bool);
+
+    //通过授权转账代币
+    function transferFrom(address from, address to, uint256 value) external returns (bool);
 }
