@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.10;
-import './IERC20.sol';
+import "./IERC20.sol";
 
 contract ERC20Basic is IERC20 {
     // 代币名称（例如：Ethereum）
