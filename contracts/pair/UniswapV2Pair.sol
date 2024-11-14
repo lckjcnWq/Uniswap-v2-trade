@@ -6,6 +6,8 @@ import "./UniswapV2ERC20.sol";
 import "../tokens/IERC20.sol";
 import "../utils/UQ112x112.sol";
 import "../utils/Math.sol";
+import "../tokens/ERC20Basic.sol";
+import "../factory/IUniswapV2Factory.sol";
 
 /**
  * @title UniswapV2Pair
